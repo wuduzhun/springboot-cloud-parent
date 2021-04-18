@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01spring-cloud-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/02spring-cloud-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03spring-cloud-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04spring-cloud-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05spring-cloud-feign-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06spring-cloud-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07spring-cloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08springboot-cloud-zuul-reg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09spring-cloud-zuul-filter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10spring-cloud-zuul-api" charset="UTF-8" />
+  </component>
+</project>

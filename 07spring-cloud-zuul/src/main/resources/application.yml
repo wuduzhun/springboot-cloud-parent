@@ -1,0 +1,21 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: 07spring-cloud-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5000/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" #打开所有的监控断点 api，如果想访问特定的就写具体的名字，比如：health，info，routes
+
+# 起别名
+zuul:
+  routes:
+    02spring-cloud-provider: /users/**
+    05spring-cloud-feign-consumer: /orders/**
+  ignored-services: "*" # 忽略所有服务名

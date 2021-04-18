@@ -1,0 +1,13 @@
+server:
+  port: 5000
+spring:
+  application:
+    name: 04spring-cloud-eureka
+eureka:
+  client:
+    # 当前服务本身就是服务注册中心，不必“自己注册自己”
+    register-with-eureka: false
+    # 当前服务本身就是服务注册中心，不必“从注册中心取回信息”
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:5000/eureka/

@@ -1,0 +1,9 @@
+server:
+  port: 4000
+spring:
+  application:
+    name: 03spring-cloud-consumere
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:5000/eureka/
